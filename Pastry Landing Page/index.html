@@ -5,23 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700i" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.1/css/mdb.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
 
-    <title>Document</title>
+    <title>Oh My Sweets!</title>
 </head>
 
 <body>
 
     <!-- // Navbar Section -->
     <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Oh my Sweets!</a>
+        <a href="#home" class="active"><img class="logo" src="img/Cupcake-Logo-Stroked.png"></a>
         <a href="#news">Pricing</a>
         <a href="#contact">Cupcakes/Cakes</a>
         <a href="#about">Contact Me </a>
@@ -32,35 +37,37 @@
 
     <!-- // Jumbotron Section -->
     <div class="jumbotron-fluid">
-        <h1 class="hero-title">Fantastic Offer!</h1>
-        <p class="hero-title">We have a special treat to our new customers.Order now and a big discount on your first order!</p>
+        <h1 class="hero-title wow zoomIn">Fantastic Offer!</h1>
+        <p class="hero-title wow zoomIn">We have a special treat to our new customers.Order now and a big discount on
+            your first
+            order!</p>
         <p>
-            <a class="btn btn-primary hero-button" id="btn" href="">Get 50% Off!</a>
+            <a class="btn btn-primary hero-button wow zoomIn" id="btn" href="">Get 50% Off!</a>
         </p>
     </div>
     <!-- // Product Section -->
     <div class="Products">
         <div class="container">
             <div class="intro">
-                <h2 class="product-title">Order our Most Popular Treats!</h2>
+                <h2 class="product-title">Order our Most <strong class="product-strong">Popular Treats! </strong></h2>
             </div>
-            <div class="row projects">
-                <div class=" col-lg-4 col-sm-6 col-md-4 col-sm item">
-                    <img src="img/background.jpg" style="width:360px;">
+            <div class="row projects ">
+                <div class=" col-lg-4 col-sm-6 col-md-6 col-sm-12 item wow fadeInUp view zoom">
+                    <img class="product-image" src="img/background.jpg" class="img-fluid" style="width:360px; height: 239px">
                     <h3 class="name">Vanilla Cupcakes</h3>
                     <p class="description">
                         These arent your typical Vanilla Cupkes. Stop by and come see for yourself,
                     </p>
                 </div>
-                <div class=" col-lg-4 col-sm-6 col-md-4 col-sm item">
-                    <img src="img/desert-3.jpg" style="width:360px;height:239px;">
+                <div class=" col-lg-4 col-sm-6 col-md-6 col-sm-12 item wow fadeInUp view zoom">
+                    <img src="img/desert-3.jpg" class="img-fluid" style="width:360px;height:239px;">
                     <h3 class="name">Cupcake Sandwiches</h3>
                     <p class="description">
                         These delicious bite size sandwiches will have you craving for more!
                     </p>
                 </div>
-                <div class=" col-lg-4 col-sm-6 col-md col-sm item">
-                    <img src="img/desert-1.jpg" style="width:360px;height:239px;">
+                <div class=" col-lg-4 col-sm-6 col-md-6 col-sm-12 item wow fadeInUp view zoom">
+                    <img src="img/desert-1.jpg" class="img-fluid" style="width:360px;height:239px;">
                     <h3 class="name">Hot Fudge Expresso&nbsp;</h3>
                     <p class="description">
                         Our only cofee related item on the menu. But everyone loves this sweet treat delight.
@@ -69,6 +76,195 @@
             </div>
         </div>
     </div>
+    <!-- // Bakery Section -->
+    <div id="bakery">
+        <div class="container">
+            <div class="intro">
+                <h2 class="product-title">Order from <strong class="product-strong">Our delicious bakery! </strong></h2>
+            </div>
+            <div class="container ">
+                <!-- Grid row -->
+                <div class="row  ">
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/jennie-brown-578884-unsplash.jpg" class="img-fluid" style="width:360px!important;height:239px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Frosted Sprinkled Cupcakes</h5>
+                            <h5 class="bakery-price"> <strong>$2.59 </strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/brooke-lark-203839-unsplash.jpg" class="img-fluid" class="img-fluid" style="width:360px;height:239px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Frosted Sprinkled Cupcakes</h5>
+                            <h5 class="bakery-price"> <strong>$2.59 </strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/alice-pasqual-762175-unsplash.jpg" class="img-fluid" class="img-fluid" style="width:360px;height:239px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Cookies and Creme Donuts</h5>
+                            <h5 class="bakery-price"> <strong>$3.59 </strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/anita-austvika-1175340-unsplash.jpg" class="img-fluid" style="width:360px;height:239px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Chocolate Truffle Cupcakes</h5>
+                            <h5 class="bakery-price"> <strong>$3.59 </strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/jordane-mathieu-1141277-unsplash.jpg" class="img-fluid" style="width:360px;height:239px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Tiramisu cakes</h5>
+                            <h5 class="bakery-price"> <strong>$5.59 </strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/karlis-dambrans-117428-unsplash.jpg" class="img-fluid" style="width:360px;height:239px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Strawberry Macaroons</h5>
+                            <h5 class="bakery-price"> <strong>$2.59 </strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid row -->
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/rose-elena-503170-unsplash.jpg" class="img-fluid" style="width:360px;height:239px; padding-bottom: 20px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Assorted Macaroons 15ct</h5>
+                            <h5 class="bakery-price"> <strong>$10.59 </strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/honey-fangs-715793-unsplash.jpg" class="img-fluid" style="width:360px;height:239px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Cinnamon Rolls Cupcakes</h5>
+                            <h5 class="bakery-price"> <strong>$3.59 </strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/velizar-ivanov-570410-unsplash.jpg" class="img-fluid" style="width:360px;height:239px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Personal Cakes</h5>
+                            <h5 class="bakery-price"> <strong>$5.59 </strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid row -->
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/brina-blum-114391-unsplash.jpg" class="img-fluid" style="width:360px;height:239px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Frosted Poundcake muffins</h5>
+                            <h5 class="bakery-price"> <strong>$12.59 </strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/honey-fangs-510303-unsplash.jpg" class="img-fluid" style="width:360px;height:239px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Frosted Lemon Cake</h5>
+                            <h5 class="bakery-price"> <strong>$10.59 </strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-sm-12 view zoom">
+                        <img src="img/toa-heftiba-98737-unsplash.jpg" class="img-fluid" style="width:360px;height:239px;"
+                            alt=" Product image of cupcakes">
+                        <div class="card-body d-flex justify-content-between text-capitalilze">
+                            <h5 class="card-text">Chocolate Musse cake</h5>
+                            <h5 class="bakery-price"> <strong>$5.59 </strong></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // Testimonials Section -->
+    <div id="testimonials">
+        <div class="bg-testimonial">
+
+            <div class="intro">
+                <h2 class="product-title">Our <strong class="product-strong">Testimonials </strong></h2>
+            </div>
+            <div class="container">
+                <section class="text-center my-5 p-1">
+                    <!-- Grid row -->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                            <div class="card testimonial-card">
+                                <div class="card-up indigo"></div>
+                                <!--Avatar-->
+                                <div class="avatar mx-auto white">
+                                    <img src="img/Female1.jpg" class="rounded-circle img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="font-weight-bold mb-4">Mallory B.</h4>
+                                    <hr>
+                                    <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Lorem
+                                        ipsum
+                                        dolor sit amet eos
+                                        adipisci, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--Grid column-->
+                        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                            <!--Card-->
+                            <div class="card testimonial-card">
+                                <div class="card-up blue-gradient">
+                                </div>
+                                <div class="avatar mx-auto white">
+                                    <img src="img/Male1.jpg" style="width:128px; height:128px;" class="rounded-circle img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="font-weight-bold mb-4">Mark P.</h4>
+                                    <hr>
+                                    <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Neque
+                                        cupiditate assumenda in
+                                        maiores repudiandae mollitia architecto.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                            <div class="card testimonial-card">
+                                <div class="card-up indigo"></div>
+                                <div class="avatar mx-auto white">
+                                    <img src="img/Female2.jpg" style="width:128px; height:128px;" class="rounded-circle
+                                        img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="font-weight-bold mb-4">Maria K.</h4>
+                                    <hr>
+                                    <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Delectus
+                                        impedit saepe officiis
+                                        ab aliquam repellat rem unde ducimus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </div>
+
     <!-- // Contact Section -->
     <div id="Contact">
         <form id="contact-form" action="">
@@ -102,12 +298,9 @@
                         <li>
                             <a href="#">Contact Me</a>
                         </li>
-
-
                     </ul>
-
                 </div>
-                <div class="col-sm-4 item social item">
+                <div class="col-sitem social item">
                     <h3>Oh My Sweets!™</h3>
                     <p>Thank you for visitng us!
                         <br> Feel free to check us out on social media. Links down below!</p>
@@ -134,8 +327,10 @@
             </div>
             <p class="copyright">Oh My Sweets!© 2018 </p>
         </footer>
-        <script type="text/javascript" src="script.js"></script>
     </div>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </body>
 
 </html>

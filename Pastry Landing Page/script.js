@@ -6,3 +6,6 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+//Animation
+new WOW().init();
